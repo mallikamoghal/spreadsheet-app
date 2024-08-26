@@ -60,7 +60,7 @@ body {
 
 td {
   padding: 7px;
-  color : #31473A;
+  color : black;
   
 }
 
@@ -74,7 +74,7 @@ table {
 }
 
 td input {
-  color : #31473A;
+  color :black;
   width: 100%;
   box-sizing: border-box;
   padding: 5px;
