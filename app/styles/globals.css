@@ -35,6 +35,7 @@ body {
 
 .btn {
   background-color: #EDF4F2;
+  color : #000000;
   border: 1px solid #738363;
   padding: 8px 16px;
   border-radius: 4px;
@@ -47,7 +48,7 @@ body {
 }
 
 .btn:active {
-  background-color: #738363;
+  background-color: #EDF4F2;
 }
 
 .table-container {
@@ -65,12 +66,11 @@ td {
 }
 
 table {
-
   border-collapse: collapse;
   border-spacing: 8px;
   border-radius: 5px;
   margin: auto;
- 
+  color: #000000;
 }
 
 td input {
@@ -92,11 +92,12 @@ td input {
   margin-top: 20px;
   display: flex;
   justify-content: center;
+  color: #000000;
 }
 
 .pagination button {
   background-color: #738363;
-  color: #EDF4F2;
+  color: #000000;
   border: none;
   padding: 10px 20px;
   margin: 0 5px;
@@ -169,7 +170,7 @@ td input {
 }
 
 .pagination-controls button.active {
-  background-color: #738363;
+  background-color: #EDF4F2;
   font-weight: bold;
 }
 
