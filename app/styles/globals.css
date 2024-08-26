@@ -17,7 +17,7 @@
 }
 
 body {
-  color: #738363;
+  color: black;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -34,8 +34,8 @@ body {
 }
 
 .btn {
+  color: black;
   background-color: #EDF4F2;
-  color : #000000;
   border: 1px solid #738363;
   padding: 8px 16px;
   border-radius: 4px;
@@ -44,11 +44,11 @@ body {
 }
 
 .btn:hover {
-  background-color:#738363 ;
+  background-color:#EDF4F2 ;
 }
 
 .btn:active {
-  background-color: #EDF4F2;
+  background-color: #738363;
 }
 
 .table-container {
@@ -66,15 +66,16 @@ td {
 }
 
 table {
+  color: black;
   border-collapse: collapse;
   border-spacing: 8px;
   border-radius: 5px;
   margin: auto;
-  color: #000000;
+ 
 }
 
 td input {
-  color :black;
+  color : black;
   width: 100%;
   box-sizing: border-box;
   padding: 5px;
@@ -92,12 +93,11 @@ td input {
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  color: #000000;
 }
 
 .pagination button {
   background-color: #738363;
-  color: #000000;
+  color: black;
   border: none;
   padding: 10px 20px;
   margin: 0 5px;
@@ -149,7 +149,7 @@ td input {
 }
 
 .search-button:hover svg {
-  color: #EDF4F2;
+  color: #31473A;
 }
 
 .pagination-controls {
@@ -170,7 +170,7 @@ td input {
 }
 
 .pagination-controls button.active {
-  background-color: #EDF4F2;
+  background-color: #738363;
   font-weight: bold;
 }
 
