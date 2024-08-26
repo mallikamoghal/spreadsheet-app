@@ -22,8 +22,7 @@ body {
       to bottom,
       transparent,
       #EDF4F2
-    )
-   ;
+    );
   padding: 20px;
 }
 
@@ -44,7 +43,7 @@ body {
 }
 
 .btn:hover {
-  background-color:#EDF4F2 ;
+  background-color: #EDF4F2;
 }
 
 .btn:active {
@@ -61,8 +60,7 @@ body {
 
 td {
   padding: 7px;
-  color : black;
-  
+  color: black;
 }
 
 table {
@@ -71,11 +69,10 @@ table {
   border-spacing: 8px;
   border-radius: 5px;
   margin: auto;
- 
 }
 
 td input {
-  color : black;
+  color: black;
   width: 100%;
   box-sizing: border-box;
   padding: 5px;
@@ -112,6 +109,7 @@ td input {
 
 .highlight {
   font-weight: bold;
+  color: black;
 }
 
 .toolbar {
@@ -131,6 +129,7 @@ td input {
   padding: 8px;
   border: 1px solid #738363;
   border-radius: 4px;
+  color: black;
 }
 
 .search-button {
@@ -144,7 +143,7 @@ td input {
 .search-button svg {
   width: 20px;
   height: 20px;
-  color: #738363;
+  color: black;
   transition: color 0.3s;
 }
 
@@ -167,11 +166,13 @@ td input {
   cursor: pointer;
   transition: background-color 0.3s;
   margin: 0 5px;
+  color: black;
 }
 
 .pagination-controls button.active {
   background-color: #738363;
   font-weight: bold;
+  color: black;
 }
 
 .pagination-controls button:disabled {
@@ -181,4 +182,5 @@ td input {
 
 .pagination-controls span {
   margin: 0 10px;
+  color: black;
 }
