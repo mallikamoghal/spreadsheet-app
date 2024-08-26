@@ -60,11 +60,12 @@ body {
 
 td {
   padding: 7px;
-  font: black;
+  color : black;
   
 }
 
 table {
+
   border-collapse: collapse;
   border-spacing: 8px;
   border-radius: 5px;
@@ -73,7 +74,7 @@ table {
 }
 
 td input {
-  color:aqua;
+  color : black;
   width: 100%;
   box-sizing: border-box;
   padding: 5px;
