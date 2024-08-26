@@ -17,7 +17,7 @@
 }
 
 body {
-  color: #31473A;
+  color: #738363;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -47,7 +47,7 @@ body {
 }
 
 .btn:active {
-  background-color: #31473A;
+  background-color: #738363;
 }
 
 .table-container {
@@ -60,7 +60,7 @@ body {
 
 td {
   padding: 7px;
-  color : black;
+  color : #31473A;
   
 }
 
@@ -74,7 +74,7 @@ table {
 }
 
 td input {
-  color : black;
+  color : #31473A;
   width: 100%;
   box-sizing: border-box;
   padding: 5px;
