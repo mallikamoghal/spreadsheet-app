@@ -17,7 +17,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #31473A;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -60,6 +60,7 @@ body {
 
 td {
   padding: 7px;
+  font: black;
   
 }
 
@@ -72,6 +73,7 @@ table {
 }
 
 td input {
+  color:aqua;
   width: 100%;
   box-sizing: border-box;
   padding: 5px;
